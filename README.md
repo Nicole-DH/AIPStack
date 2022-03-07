@@ -5,4 +5,4 @@ The AIPStack is a two-layer stacking ensemble model, proposed for the identifica
 ![Alt text](https://github.com/Nicole-DH/AIPStack/blob/master/img/flowchart.png)
 
 # Licence
-The code is only allowed for accedemic research. Commercial usage is not granted.
+The code and datasets are only allowed for accedemic research. Commercial usage is not granted.
