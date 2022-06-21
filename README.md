@@ -1,4 +1,4 @@
-This is the corresponding repository of the paper titled "AIPStack: a sequence-based stacking ensemble model for improving the prediction of Anti-inflammatory peptides".
+This is the corresponding repository of the paper titled "AIPStack: a sequence-based stacking ensemble model for the prediction of anti-inflammatory peptides".
 
 
 # AIPStack
