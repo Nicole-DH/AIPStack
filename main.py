@@ -8,11 +8,8 @@ def build_model():
     """
     A two-layer stacking ensemble model.
     """
-    et = ET(class_weight='balanced', criterion='entropy',
-                     max_features='log2', n_estimators=1950, random_state=seed)
-    rf = RF(class_weight='balanced', criterion='entropy',
-                       max_features='log2', n_estimators=2000, oob_score=True,
-                       random_state=42)
+    et = ET(max_features='log2', n_estimators=1300, random_state=seed)
+    rf = RF(max_features='log2', n_estimators=1600, oob_score=True, random_state=seed)
     lr = LR()
 
     sclf = StackingCVClassifier(classifiers=[et, rf],
